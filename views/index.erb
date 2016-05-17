@@ -1,0 +1,19 @@
+<h2>Shoo Orders</h2>
+
+<% @shoos.each do |shoo| %>
+
+<div>
+<b>Your details</b>
+
+<p>Name: <%= shoo.name %></p>
+
+<p>Address: <%= shoo.address %></p>
+
+<p>Amount: <%= shoo.quantity %></p>
+
+<p>Size: <%= shoo.size %></p>
+</div>
+
+<hr>
+
+<% end %>
